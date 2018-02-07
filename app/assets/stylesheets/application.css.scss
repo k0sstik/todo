@@ -27,11 +27,11 @@
 
  body {
  	height: 100%;
- 	background: -webkit-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
- 	background:    -moz-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
- 	background:     -ms-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
- 	background:      -o-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
- 	background:         linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
+ 	background: -webkit-linear-gradient(to top,#f0f9ff, Cyan);
+ 	background:    -moz-linear-gradient(to top,#f0f9ff, Cyan);
+ 	background:     -ms-linear-gradient(to top,#f0f9ff, Cyan);
+ 	background:      -o-linear-gradient(to top,#f0f9ff, Cyan);
+ 	background:         linear-gradient(to top,#f0f9ff, Cyan);
  	font-family: 'Lato', sans-serif;
  }
 
@@ -50,7 +50,7 @@
 	font-size: 0.6em;
 	color: grey;
 	font-weight: 100;
-	border: 1px solid white;
+	border: 2px solid white;
 	padding: .5em 1em;
 	border-radius: 5px;
 	display: block;
@@ -174,10 +174,10 @@
 	display: block;
 	margin: 1.5em auto 0 auto;
 	text-align: center;
-	font-size: 0.8em;
-	color: white;
+	font-size: 1.1em;
+	color: snow;
 	a {
-		color: white;
+		color: snow;
 	}
 }
 

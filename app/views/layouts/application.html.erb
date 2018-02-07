@@ -11,8 +11,18 @@
   </head>
 
   <body>
+    <div class="links">
+          <%= link_to "Log In", new_user_session_path %> |
 
-  	<div class="container">
+          <%= link_to "Sign In", new_user_registration_path%> |
+
+          <%= link_to "Sign out", destroy_user_session_path, :method => :delete, data: { confirm: 'Are You sure?'}%>
+    </div>      
+    <div class="container">
+
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+    
     	<%= yield %>
 	</div>
   </body>
